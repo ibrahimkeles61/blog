@@ -20,7 +20,7 @@ export default function BlogPostForm({
 
 	return (
 		<View style={styles.main}>
-			<Text style={styles.label}>Başlığı Giriniz:</Text>
+			<Text style={styles.label}>Enter Title:</Text>
 
 			<TextInput
 				style={styles.input}
@@ -29,7 +29,7 @@ export default function BlogPostForm({
 				autoCapitalize="none"
 			/>
 
-			<Text style={styles.label}>İçeriği Giriniz:</Text>
+			<Text style={styles.label}>Enter Content:</Text>
 
 			<TextInput
 				style={styles.input}
@@ -44,7 +44,7 @@ export default function BlogPostForm({
 			>
 				<View style={styles.buttonView}>
 					<Text style={styles.buttonText}>
-						{isThisPageCreate ? "Kaydet" : "Güncelle"}
+						{isThisPageCreate ? "Save" : "Update"}
 					</Text>
 				</View>
 			</TouchableOpacity>

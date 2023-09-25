@@ -7,15 +7,15 @@ const blogReducer = (state, action) => {
 		case "get_blogposts":
 			return action.payload;
 
-		case "add_blogpost":
-			return [
-				...state,
-				{
-					id: Math.floor(Math.random() * 1000000),
-					title: action.payload.title,
-					content: action.payload.content,
-				},
-			];
+		// case "add_blogpost":
+		// 	return [
+		// 		...state,
+		// 		{
+		// 			id: Math.floor(Math.random() * 1000000),
+		// 			title: action.payload.title,
+		// 			content: action.payload.content,
+		// 		},
+		// 	];
 
 		case "edit_blogpost":
 			return state.map((blogPost) =>

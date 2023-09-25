@@ -1,9 +1,14 @@
 {
   "blogposts": [
     {
-      "title": "Trabzon",
-      "content": "Uzungöz, sürmene pidesi",
+      "title": "React",
+      "content": "Actually, its OK ",
       "id": 1
+    },
+    {
+      "title": "React Native",
+      "content": "Even Better!",
+      "id": 2
     }
   ]
 }

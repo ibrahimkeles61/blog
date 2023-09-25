@@ -11,12 +11,12 @@ export default function ShowScreen({ route }) {
 	return (
 		<View style={styles.mainContainer}>
 			<View style={styles.container}>
-				<Text style={styles.label}>Başlık</Text>
+				<Text style={styles.label}>Title</Text>
 				<Text style={styles.content}>{blogPost.title}</Text>
 			</View>
 
 			<View style={styles.container}>
-				<Text style={styles.label}>İçerik</Text>
+				<Text style={styles.label}>Content</Text>
 				<Text style={styles.content}>{blogPost.content}</Text>
 			</View>
 		</View>
