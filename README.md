@@ -10,7 +10,7 @@ Kayıtları kaydetmek için fake api kullandım: json-server
 
 Veri çekmek için: Axios
 
-##Tanıtım
+## Tanıtım
 
 Projede ana sayfada yüm kayıtlar listeleniyor. "+" butonuna basarak yeni kayıt ekleme ekranına, kayıtlardan herhangi birinin üzerine tıklayarakta kaydı güncelleme ekranına geçebilirsiniz. Her kaydın yanındaki çöp kutusu ikonuna tıklayarak ise kaydı silebilirsiniz.
 
